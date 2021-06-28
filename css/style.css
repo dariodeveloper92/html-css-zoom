@@ -20,7 +20,22 @@
     align-items: center;
 }
 
+.character {
+    height: 120px;
+    width: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.name-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: gray;
+    color: white;
+}
 /* fine common */
 
 /* main */
@@ -57,6 +72,127 @@ main .box {
     background-color: gray;
     color: white; 
 }
+
+.cam {
+    width: 80%;
+    margin: 0 10%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.cam .text {
+    background-color: gray;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+}
+/* color */
+.first {
+    background-color: turquoise;
+}
+
+.second {
+    background-color: yellow;
+}
+
+.third {
+    background-color: yellowgreen;
+}
+
+.fourth {
+    background-color: tomato;
+}
+
+.fifth {
+    background-color: violet;
+}
+
+.sixth {
+    background-color: goldenrod;
+}
+
+.seventh {
+    background-color: turquoise;
+}
+
+.eighth {
+    background-color: yellow;
+}
+
+.ninth {
+    background-color: yellowgreen;
+}
+
+.tenth {
+    background-color: tomato;
+}
+
+.eleventh {
+    background-color: violet;
+}
+
+.twelfth {
+    background-color: goldenrod;
+}
+
+.thirteenth {
+    background-color: firebrick;
+}
+
+.fourteenth {
+    background-color: fuchsia;
+}
+
+.fifteenth {
+    background-color: lightskyblue;
+}
+
+.sixteenth {
+    background-color: lime;
+}
+
+.seventeenth {
+    background-color: teal;
+}
+
+.eighteenth {
+    background-color: darkgoldenrod;
+}
+
+.nineteenth {
+    background-color: rgb(32, 181, 218);
+}
+
+.twentieth {
+    background-color: rgb(184, 218, 32);
+}
+
+.twenty-first {
+    background-color: rgb(218, 32, 193);
+}
+
+.twenty-second {
+    background-color: rgb(240, 226, 30);
+}
+
+.twenty-third {
+    background-color: rgb(32, 218, 203);
+}
+
+.twenty-fourth {
+    background-color: rgb(218, 32, 88);
+}
+
+.twenty-fifth {
+    background-color: rgb(218, 100, 32);
+}
+/* fine color */
 
 
 /* fine main */

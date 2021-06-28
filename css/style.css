@@ -18,27 +18,43 @@ footer {
     width: 100%;
     height: 10vh;
     background-color: gray;
+    color: white;
 }
 
 .nav-left,
 .nav-center,
 .nav-right {
     height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer .nav-left {
     position: absolute;
     top: 0;
     left: 0;
+    width: 10%;
+    margin: 0 auto;
 }
 
 .nav-center {
     margin: 0 auto;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer .nav-right {
     position: absolute;
     top: 0;
     right: 0;
+    background-color: lightgray;
+    color: red;
 }
 /* fine footer */
